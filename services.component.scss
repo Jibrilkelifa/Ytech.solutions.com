@@ -1,0 +1,23 @@
+.services {
+    h2 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 30px;
+    }
+    .service-card {
+        text-align: center;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+    }
+}
